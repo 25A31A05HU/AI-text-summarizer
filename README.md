@@ -1,4 +1,4 @@
-# 🌟 AI Text Summarizer | Quality Education
+# 🌟 AI Text Summarizer
 
 An advanced, client-side extractive text summarizer web application designed to instantly condense complex study materials, lecture notes, and textbook paragraphs into concise, digestible points. Built in alignment with **Sustainable Development Goal 4 (Quality Education)** to make learning resources more accessible and efficient.
 
