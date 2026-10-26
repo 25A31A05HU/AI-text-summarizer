@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summarizer - SDG 4 Quality Education</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>AI Text Summarizer</h1>
+            <p>Quality Education — Condensing complex learning materials instantly</p>
+        </header>
+
+        <!-- Input Section -->
+        <div class="card">
+            <h3>📖 Paste Document / Lecture Text</h3>
+            <textarea id="inputText" placeholder="Paste your long study notes, textbook paragraph, or article here..."></textarea>
+            
+            <div class="controls">
+                <div class="control-group">
+                    <label for="sentenceCount">Summary Size:</label>
+                    <select id="sentenceCount">
+                        <option value="2">2 Sentences (Short)</option>
+                        <option value="4" selected>4 Sentences (Medium)</option>
+                        <option value="6">6 Sentences (Detailed)</option>
+                        <option value="8">8 Sentences (Comprehensive)</option>
+                    </select>
+                </div>
+                <button onclick="generateSummary()">✨ Generate Summary</button>
+            </div>
+        </div>
+
+        <!-- Output Section -->
+        <div class="card">
+            <h3>⚡ Smart Summary Output</h3>
+            <div id="outputSummary" class="output-box">Your summarized text will appear here once you click generate!</div>
+            <div class="stats" id="statsArea"></div>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
